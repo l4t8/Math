@@ -1,4 +1,4 @@
-from math import sqrt,ceil,fabs,floor
+from math import sqrt,ceil,floor
 def isPP(n):
     for i in range(2,ceil(sqrt(n))+1):
         x = pow(n,1/i)
